@@ -34,12 +34,52 @@
     color: #496406 !important
   &-9
     background-color: #F6F3EF
+  &-10
+    background-color: #EFEAE3
   &-info
     background-color: #E8EEFD
   &-sintesis
     background-color: #F9F9F9
   &-white
     background-color: #fff
+.bg-h85
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: 5%
+    left: 0
+    width: 100%
+    height: 88%
+    transform: translateY(-0%)
+    background-color: #FFEBD0
+    z-index: 0
+  .col-lg-12
+    z-index: 1
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+    &::after
+      height: 100%
+      bottom: 0
+.bg-h85-1
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: 9%
+    left: 0
+    width: 100%
+    height: 80%
+    transform: translateY(-0%)
+    background-color: #D6F5FB
+    z-index: 0
+  .col-lg-12
+    z-index: 1
+  @media screen and (max-width: $bp-max-md)
+    padding: 1rem
+    &::after
+      height: 100%
+      bottom: 0
 
 .border-top
   &.color-primario
