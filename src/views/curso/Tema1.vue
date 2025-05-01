@@ -31,7 +31,7 @@
     
     p.mb-4 La planeación financiera es esencial para la sostenibilidad empresarial, ya que permite a las organizaciones anticiparse a desafíos económicos, optimizar recursos y garantizar su viabilidad a largo plazo. Al desarrollar estrategias y acciones para administrar eficientemente los recursos financieros, establecer metas claras y tomar decisiones informadas, las empresas pueden mantener su competitividad en un mercado cada vez más dinámico.
 
-    .bg-full-width.bg-h85
+    .bg-full-width.bg-h85.mb-5
       .px-4.px-md-5.pb-md-3
         .row.justify-content-center.align-items-center
           .col-lg-12
@@ -109,7 +109,7 @@
     
     h2(data-aos="fade-left") Control de presupuestos
 
-    .bg-full-width.bg-h85-1
+    .bg-full-width.bg-h85-1.mb-5
       .px-4.px-md-5.pb-md-3
         .row.justify-content-center.align-items-center
           .col-lg-12
