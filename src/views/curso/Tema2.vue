@@ -44,7 +44,7 @@
             P <b>Por ejemplo</b>, si una empresa tiene ventas netas de $500,000 y un costo de ventas de $300,000, el margen de utilidad bruta sería:
             img.mb-3(src="@/assets/curso/tema2/4-2.svg", style="max-width: 372px").mx-auto
             p Esto indica que, por cada peso vendido, la empresa obtiene $0.40 antes de cubrir los gastos operativos.
-          .div(titulo="Cumplimiento normativo")
+          .div(titulo="Margen de utilidad neta")
             p Mide la rentabilidad total de la empresa después de deducir todos los gastos, incluidos los impuestos y gastos operativos. La fórmula es: 
             img.mb-3(src="@/assets/curso/tema2/4-3.svg", style="max-width: 431px").mx-auto
             P Si la utilidad neta es de $50,000 y las ventas netas son $500,000, el margen de utilidad neta sería:
@@ -58,13 +58,13 @@
       .col-lg-8
     
         AcordionA(tipo="b")
-          .div(titulo="Margen de utilidad bruta")
+          .div(titulo="Retorno sobre activos (ROA)")
             p Evalúa la capacidad de la empresa para generar ganancias a partir de sus activos totales. Se calcula de la siguiente manera:
             img.mb-3(src="@/assets/curso/tema2/4-5.svg", style="max-width: 287px").mx-auto
             P Por ejemplo, si la utilidad neta es de $50,000 y los activos totales son $1,000,000, el ROA sería:
             img.mb-3(src="@/assets/curso/tema2/4-6.svg", style="max-width: 287px").mx-auto
             p Esto indica que la empresa genera una ganancia de $0.05 por cada peso invertido en activos.
-          .div(titulo="Cumplimiento normativo")
+          .div(titulo="Retorno sobre el patrimonio (ROE)")
             p Mide la rentabilidad obtenida sobre los fondos propios invertidos por los accionistas. La fórmula es: 
             img.mb-3(src="@/assets/curso/tema2/4-7.svg", style="max-width: 287px").mx-auto
             P Si la utilidad neta es de $50,000 y el patrimonio neto es $250,000, el ROE sería:
@@ -196,14 +196,14 @@
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8.mb-3.mb-lg-0
-            h2.mb-4(data-aos="flip-up") Caso práctico: evaluación de rentabilidad en una empresa de manufactura
-            p.mb-4(data-aos="fade-right") Los invitamos a leer el documento <b>"Caso práctico: evaluación de rentabilidad en una empresa de manufactura"</b>, donde se analiza la rentabilidad de Innovatech S.A. a partir de indicadores clave como el margen de utilidad neta, el retorno sobre activos (ROA) y el retorno sobre el patrimonio (ROE). A través de este caso, se identifican desafíos financieros y se presentan estrategias para mejorar la eficiencia operativa y la competitividad de la empresa.
+            h2.mb-4(data-aos="flip-up") Caso práctico: contexto empresarial
+            p.mb-4(data-aos="fade-right") Se invita a leer el documento Caso práctico: contexto empresarial, donde se aborda la situación financiera de la empresa EcoTech S.A", especializada en productos tecnológicos ecológicos. Este material ofrece un análisis de datos financieros, identificación de problemas de rentabilidad y propuestas estratégicas, con el fin de optimizar recursos y mejorar la competitividad. Ideal para estudiantes, profesionales o directivos interesados en la gestión financiera y toma de decisiones estratégicas empresariales.
     
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p <strong>Anexo. </strong> Caso práctico: evaluación de rentabilidad en una empresa de manufactura.
+                p <strong>Anexo. </strong> Caso práctico: contexto empresarial.
     
           .col-lg-4
             figure(data-aos="zoom-in")
@@ -219,7 +219,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://dateando.com/dateando/el-papel-de-las-finanzas-en-la-toma-de-decisiones-estrategicas/" target="_blank" rel="noopener noreferrer") Gorriño Castellar, L. C. (2024). El papel de las finanzas en la toma de decisiones estratégicas.  
+              a(href="https://avdeportes.com/el-papel-de-las-finanzas-en-la-toma-de-decisiones-estrategicas/actualidad/" target="_blank" rel="noopener noreferrer") Gorriño Castellar, L. C. (2024). El papel de las finanzas en la toma de decisiones estratégicas.  
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")

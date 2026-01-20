@@ -15,7 +15,7 @@
             p(data-aos="fade-left").mb-4 Para estudiar la temática, lo invitamos a escuchar el siguiente podcast.
     
             TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-              texto="Fundamentos de la innovación estratégica"
+              texto="Gestión del riesgo y sostenibilidad: claves para el futuro empresarial"
               tiempo
               :audio="require('../../assets/curso/podcast/podcast1.mp3')"
             )
@@ -120,7 +120,7 @@
           img(src="@/assets/curso/tema3/9.png", data-aos="zoom-in")
       .col-lg-8
         p(data-aos="fade-left") La sostenibilidad empresarial y la gestión de crisis son pilares fundamentales en la administración moderna. Integrar estrategias sostenibles no solo promueve la responsabilidad social, sino que también fortalece la resiliencia organizacional ante situaciones adversas.
-        h2(data-aos="fade-left") empresarial
+        h2(data-aos="fade-left") Estrategias de sostenibilidad empresarial
         p.mb-5 Implementar prácticas sostenibles implica adoptar medidas que minimicen el impacto ambiental, fomenten el bienestar social y aseguren la viabilidad económica. Algunas estrategias clave incluyen:
     
     .bg-full-width.bg-color-info.mb-5
